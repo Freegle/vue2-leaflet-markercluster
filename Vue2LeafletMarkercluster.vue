@@ -7,7 +7,7 @@
 <script>
 import { MarkerClusterGroup } from 'leaflet.markercluster'
 import { findRealParent, propsBinder } from 'vue2-leaflet'
-import { DomEvent } from 'leaflet'
+import L from 'leaflet'
 
 const props = {
   options: {
@@ -25,7 +25,7 @@ export default {
   },
   mounted() {
     this.mapObject = new MarkerClusterGroup(this.options);
-    DomEvent.on(this.mapObject, this.$listeners);
+    L.DomEvent.on(this.mapObject, this.$listeners);
     propsBinder(this, this.mapObject, props);
     this.ready = true;
     this.parentContainer = findRealParent(this.$parent);

@@ -35,3 +35,11 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+/.idea/$CACHE_FILE$
+/.idea/deployment.xml
+/.idea/encodings.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
+/.idea/vue2-leaflet-markercluster.iml
+/.idea/workspace.xml
