@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/jperelli/vue2-leaflet-markercluster#readme",
   "dependencies": {
-    "leaflet.markercluster": "^1.4.1"
+    "leaflet.markercluster": "github:Freegle/vue2-leaflet-markercluster"
   },
   "peerDependencies": {
     "leaflet": "^1.3.4"
