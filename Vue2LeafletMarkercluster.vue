@@ -24,7 +24,7 @@ export default {
     };
   },
   mounted() {
-    this.mapObject = new MarkerClusterGroup(this.options);
+    this.mapObject = MarkerClusterGroup(this.options);
     L.DomEvent.on(this.mapObject, this.$listeners);
     propsBinder(this, this.mapObject, props);
     this.ready = true;
